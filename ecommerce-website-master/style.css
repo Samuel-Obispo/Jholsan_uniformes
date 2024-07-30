@@ -1,0 +1,128 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body{
+    overflow-x:hidden;
+    max-width: 100%;
+    margin:0;
+    margin-bottom: 150px;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Andika';
+    
+}
+#bg{
+    background-image: url(https://source.unsplash.com/featured/?men,fashion,sneakers);
+    /*https://images.unsplash.com/photo-1549942686-486aa99d2223*/
+    background-repeat: no-repeat;
+    min-height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+}
+#banner_content {
+    background-color: rgba(45,169,255);
+    
+}
+.carousel-inner img {
+    width: 100%;
+    height:100%;
+}
+.footer{
+    position: absolute;
+    margin-top: 50px;
+    background-color: #000000;
+    min-height:150px;
+    padding-top:40px;
+    width: 100%;
+   
+    bottom: 0;
+    
+}
+.container  a {
+    color:black;
+}
+.container a:hover{
+    background-color: rgba(45,169,255);
+    
+}
+#size{
+    max-height:200px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: none;
+}
+
+#body-fix {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cosita {
+    breadcrumb: rgba(45,169,255);
+}
+
+#nombrex {
+    background-color: rgb(45, 169, 255  );
+}
+
+-----------------------
+/* assets/css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
